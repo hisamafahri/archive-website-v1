@@ -1,3 +1,17 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+body {
+  background-color: #090F29;
+  width: 100%;
+}
+
+.myUnderline{
+  border-bottom: 5px solid #55EA9F;
+}
+
+p::selection, h1::selection{
+  background-color: #55EA9F;
+}

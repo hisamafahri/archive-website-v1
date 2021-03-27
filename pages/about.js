@@ -1,12 +1,12 @@
 import Header from "../components/Head";
 import { useState } from "react";
 
-export default function Home() {
+function About() {
   const [drawer, setDrawer] = useState("hidden");
 
   return (
     <div>
-      <Header title="Welcome" />
+      <Header title="About" />
       <div className="bg-hisam-blue md:grid-rows-2 flex flex-row 2xl:w-3/4 2xl:mx-auto">
         <div className="hidden md:inline">
           <div className="ml-16 mt-32">
@@ -102,44 +102,37 @@ export default function Home() {
 
           <div className="pl-16 pr-16 md:pl-36 lg:pl-48 lg:pr-0 w-11/12 mt-20">
             <h1 className="text-6xl lg:text-8xl font-serif font-black text-white leading-normal lg:leading-loose">
-              Hi, I’m Hisam, a
-              <a className="text-hisam-blue bg-hisam-green"> coder</a> and
-              <a className="text-hisam-blue bg-hisam-green"> designer</a>.
+              About Me
             </h1>
           </div>
 
+          <div className="my-24 md:pl-36 lg:pl-48">
+            <img className="w-full" src="/profile.jpg" alt="My image" />
+          </div>
           <div className="mb-48 pl-16 md:pl-36 lg:pl-48 pr-16 lg:grid-rows-2 lg:flex lg:flex-row">
             <div className="mt-28 lg:w-1/2 lg:pr-12">
               <p className="text-white font-mono">
-                <a className="font-bold">In short--</a>
-                <br />I am a human that always trying to learn something
-                extraordinary, something that could be useful for me and peoples
-                around the world. For me, learning is the most interesting thing
-                in the world.
+                Born and raised in Indonesia, made me believe that this world is
+                HUGE, but also have a HUGE amount of problems to solve. Every
+                single I am wondering,{" "}
+                <a className="italic">
+                  "What should I do to bring meaningful impact to other peoples
+                  live, today?"
+                </a>
               </p>
             </div>
 
             <div className="mt-20 lg:mt-28 lg:w-1/2 lg:pr-12">
               <p className="text-white font-mono">
-                Creating something useful, meaningful, and user-friendly is my
-                fundamental principles for every single thing{" "}
-                <a
-                  className="myUnderline hover:bg-hisam-green hover:text-hisam-blue hover:no-underline"
-                  href="/works"
-                >
-                  I made
-                </a>
-                .<br />
+                With those spirit in mind, every single day, I am trying to
+                learn, understand, and help solving --not just mine, bu also
+                other peoples-- problems.
                 <br />
-                You curious about something? Feel free to{" "}
-                <a
-                  className="myUnderline hover:bg-hisam-green hover:text-hisam-blue hover:no-underline"
-                  href="/contact"
-                >
-                  {" "}
-                  ask me anything
-                </a>
-                :)
+                <br />
+                My works focuses on three things:{" "}
+                <a className="font-bold">works great</a>,{" "}
+                <a className="font-bold">looks beautiful</a>, and{" "}
+                <a className="font-bold">beneficial</a>.
               </p>
             </div>
           </div>
@@ -155,3 +148,5 @@ export default function Home() {
     </div>
   );
 }
+
+export default About;
