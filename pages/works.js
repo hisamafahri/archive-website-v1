@@ -129,7 +129,7 @@ function Works() {
                 <p className="text-white font-mono font-bold text-xl">
                   <a
                     className="myUnderline hover:bg-hisam-green hover:text-hisam-blue hover:no-underline leading-loose"
-                    href="https://relectr.com"
+                    href="https://www.npmjs.com/package/tnkb"
                     target="_blank"
                   >
                     TNKB
