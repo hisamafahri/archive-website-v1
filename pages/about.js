@@ -107,7 +107,7 @@ function About() {
           </div>
 
           <div className="my-24 md:pl-36 lg:pl-48">
-            <img className="w-full" src="/profile.jpg" alt="My image" />
+            <img className="w-full" src="/profile.jpeg" alt="My image" />
           </div>
           <div className="mb-48 pl-16 md:pl-36 lg:pl-48 pr-16 lg:grid-rows-2 lg:flex lg:flex-row">
             <div className="mt-28 lg:w-1/2 lg:pr-12">

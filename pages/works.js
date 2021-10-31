@@ -107,6 +107,40 @@ function Works() {
           </div>
 
           <div className="pl-16 pr-16 md:pl-36 md:pr-36 lg:pl-48 md:pr-48">
+          <div className="pr-16">
+              <div className="mt-20">
+                <p className="text-white font-mono font-bold text-xl">
+                  <a
+                    className="myUnderline hover:bg-hisam-green hover:text-hisam-blue hover:no-underline leading-loose"
+                    href="https://editr.hisamafahri.com"
+                    target="_blank"
+                  >
+                    Editr
+                  </a>
+                </p>
+                <p className="text-white font-mono text-sm mt-5">
+                  Another simple rich text editor. Built using Next.js and Slate.
+                </p>
+              </div>
+            </div>
+
+            <div className="pr-16">
+              <div className="mt-20">
+                <p className="text-white font-mono font-bold text-xl">
+                  <a
+                    className="myUnderline hover:bg-hisam-green hover:text-hisam-blue hover:no-underline leading-loose"
+                    href="https://relectr.com"
+                    target="_blank"
+                  >
+                    TNKB
+                  </a>
+                </p>
+                <p className="text-white font-mono text-sm mt-5">
+                  An NPM package to validate and decode Indonesian's vehicle's plate/registration number.
+                </p>
+              </div>
+            </div>
+
             <div className="pr-16">
               <div className="mt-28">
                 <p className="text-white font-mono font-bold text-xl">
