@@ -14,7 +14,7 @@ const Home: NextPage = () => {
       </Head>
 
       <main>
-        <p style={{color: COLORS.white}}># Hello, world!</p>
+        <p style={{color: COLORS.white, fontFamily: "'IBM Plex Mono', 'monospace'"}}># Hello, world!</p>
       </main>
     </div>
   )
