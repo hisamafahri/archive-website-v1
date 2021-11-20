@@ -1,0 +1,75 @@
+.textSubBase {
+    font-family: 'IBM Plex Mono', monospace;
+    font-weight: 400;
+    font-size: 0.75em;
+    line-height: normal;
+    letter-spacing: 0%;
+    margin-bottom: 0;
+}
+
+.textBase {
+    font-family: 'IBM Plex Mono', monospace;
+    font-weight: 400;
+    font-size: 0.875em;
+    line-height: 150%;
+    letter-spacing: 0%;
+    margin-bottom: 18px;
+}
+
+.textH3 {
+    font-family: 'IBM Plex Mono', monospace;
+    font-weight: 700;
+    font-size: 1em;
+    line-height: normal;
+    letter-spacing: 0%;
+    margin-bottom: 0;
+}
+
+.textH2 {
+    font-family: 'IBM Plex Mono', monospace;
+    font-weight: 700;
+    font-size: 1.25em;
+    line-height: normal;
+    letter-spacing: 0%;
+    margin-bottom: 0;
+}
+
+.textSubBaseUnderlined {
+    text-decoration: underline;
+    font-family: 'IBM Plex Mono', monospace;
+    font-weight: 400;
+    font-size: 0.75em;
+    line-height: normal;
+    letter-spacing: 0%;
+    margin-bottom: 0;
+}
+
+.textBaseUnderlined {
+    text-decoration: underline;
+    font-family: 'IBM Plex Mono', monospace;
+    font-weight: 400;
+    font-size: 0.875em;
+    line-height: 150%;
+    letter-spacing: 0%;
+    margin-bottom: 18px;
+}
+
+.textH3Underlined {
+    text-decoration: underline;
+    font-family: 'IBM Plex Mono', monospace;
+    font-weight: 700;
+    font-size: 1em;
+    line-height: normal;
+    letter-spacing: 0%;
+    margin-bottom: 0;
+}
+
+.textH2Underlined {
+    text-decoration: underline;
+    font-family: 'IBM Plex Mono', monospace;
+    font-weight: 700;
+    font-size: 1.25em;
+    line-height: normal;
+    letter-spacing: 0%;
+    margin-bottom: 0;
+}
