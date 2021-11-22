@@ -2,7 +2,7 @@ import Link from 'next/link'
 import React, { ReactElement } from 'react'
 import { COLORS } from '../constants/color'
 import globalStyle from '../styles/Global.module.css'
-import homeStyle from '../styles/Home.module.css'
+import homeStyle from '../styles/HeaderFooter.module.css'
 import fontStyle from '../styles/Fonts.module.css'
 
 export default function Footer({ }: any): ReactElement {

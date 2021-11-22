@@ -1,6 +1,6 @@
 import React, { ReactElement } from 'react'
 import { COLORS } from '../constants/color'
-import homeStyle from '../styles/Home.module.css'
+import homeStyle from '../styles/HeaderFooter.module.css'
 import fontStyle from '../styles/Fonts.module.css'
 import Logo from '../assets/svg/Logo'
 import Link from 'next/link'
