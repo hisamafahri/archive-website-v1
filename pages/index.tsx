@@ -34,7 +34,7 @@ const Home: NextPage = () => {
             <p><Link href='https://www.github.com/hisamafahri/sandisam'><span className={fontStyle.underlinedPink}>SandiSam</span></Link>: personal password manager mobile app for iOS and android</p>
             <p><Link href='https://www.github.com/hisamafahri/website'><span className={fontStyle.underlinedPink}>Personal Website</span></Link>: this website. The design was heavily inspired by <Link href='https://github.com/probberechts/hexo-theme-cactus'><span className={`${fontStyle.textBase} ${fontStyle.underlinedPink}`}>Cactus Dark Theme</span></Link>, and built using NextJS</p>
             <p><Link href='https://www.relectr.com/'><span className={fontStyle.underlinedPink}>Relectr</span></Link>: tools to help teachers doing their repetitive task while focusing on the online teaching</p>
-            <p><Link href='https://www.github.com/hisamafahri/ask-mee'><span className={fontStyle.underlinedPink}>AskMee</span></Link>: a simple desicion making app, inspired by Angela Yu's Flutter Project. Build for iOS and android</p>
+            <p><Link href='https://www.github.com/hisamafahri/ask-mee'><span className={fontStyle.underlinedPink}>AskMee</span></Link>: a simple desicion making app, inspired by Angela Yu's Project. Build for iOS and android</p>
             <p><Link href='https://www.behance.net/gallery/106137831/kitalulus-Rebranding-Concept'><span className={fontStyle.underlinedPink}>KitaLulus Redesign Concept</span></Link>: logo redesign and rebranding concept for KitaLulus</p>
           </div>
         </div>
