@@ -33,41 +33,33 @@
     margin-bottom: 0;
 }
 
-.textSubBaseUnderlined {
+.underlinedPink {
     text-decoration: underline;
-    font-family: 'IBM Plex Mono', monospace;
-    font-weight: 400;
-    font-size: 0.75em;
-    line-height: normal;
-    letter-spacing: 0%;
-    margin-bottom: 0;
 }
 
-.textBaseUnderlined {
+.underlinedGreen {
     text-decoration: underline;
-    font-family: 'IBM Plex Mono', monospace;
-    font-weight: 400;
-    font-size: 0.875em;
-    line-height: 150%;
-    letter-spacing: 0%;
 }
 
-.textH3Underlined {
+.underlinedGrey {
     text-decoration: underline;
-    font-family: 'IBM Plex Mono', monospace;
-    font-weight: 700;
-    font-size: 1em;
-    line-height: normal;
-    letter-spacing: 0%;
-    margin-bottom: 0;
 }
 
-.textH2Underlined {
+.underlinedPink:hover {
+    cursor: pointer;
     text-decoration: underline;
-    font-family: 'IBM Plex Mono', monospace;
-    font-weight: 700;
-    font-size: 1.25em;
-    line-height: normal;
-    letter-spacing: 0%;
-    margin-bottom: 0;
+    text-decoration-thickness: 2px;
+    text-decoration-color: #D480AA;
+}
+
+.underlinedGreen:hover {
+    cursor: pointer;
+    text-decoration: underline;
+    text-decoration-color: #2CBC8A;
+}
+
+.underlinedGrey:hover {
+    cursor: pointer;
+    text-decoration: underline;
+    text-decoration-color: #858585;
 }

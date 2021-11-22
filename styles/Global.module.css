@@ -3,3 +3,11 @@
     margin: 64px auto 0;
     padding: 0 32px;
 }
+
+.footer {
+    margin: 64px 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
