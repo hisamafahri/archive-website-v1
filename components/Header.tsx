@@ -8,9 +8,11 @@ import Link from 'next/link'
 export default function Header({ }: any): ReactElement {
     return (
         <div className={homeStyle.header}>
-            <div onClick={() => { }} className={homeStyle.logo}>
-                <Logo />
-            </div>
+            <Link href='/'>
+                <div className={homeStyle.logo}>
+                    <Logo />
+                </div>
+            </Link>
             <div className={homeStyle.navigator}>
                 <p className={fontStyle.textH2} style={{ color: COLORS.textGrey, margin: 0 }}>Hisam Fahri</p>
                 <p className={fontStyle.textBase} style={{ color: COLORS.mainGreen, marginTop: '4px', marginBottom: 0 }}>
