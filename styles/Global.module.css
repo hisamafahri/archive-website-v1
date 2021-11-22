@@ -1,4 +1,5 @@
 .main {
     max-width: 768px;
     margin: 64px auto 0;
+    padding: 0 32px;
 }
