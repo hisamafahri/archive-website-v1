@@ -8,7 +8,7 @@ import fontStyle from '../styles/Fonts.module.css'
 export default function Footer({ }: any): ReactElement {
     return (
         <footer className={globalStyle.footer}>
-            <p className={fontStyle.textSubBase} style={{ color: COLORS.secondaryTextGrey, margin: 0 }}>Copyright © 2021 Hisam Fahri</p>
+            <p className={fontStyle.textSubBase} style={{ color: COLORS.secondaryTextGrey, margin: 0 }}>Copyright © {new Date().getFullYear()} Hisam Fahri</p>
             <div className={fontStyle.textSubBase} style={{ color: COLORS.secondaryTextGrey }}>
                 <Link href='/'>
                     <span className={homeStyle.footerNav} onClick={() => { }}>Home</span>
