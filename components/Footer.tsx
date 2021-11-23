@@ -10,13 +10,13 @@ export default function Footer({ }: any): ReactElement {
         <footer className={globalStyle.footer}>
             <p className={fontStyle.textSubBase} style={{ color: COLORS.secondaryTextGrey, margin: 0 }}>Copyright © {new Date().getFullYear()} Hisam Fahri</p>
             <div className={fontStyle.textSubBase} style={{ color: COLORS.secondaryTextGrey }}>
-                <Link href='/'>
+                <Link href='/' passHref={true}>
                     <span className={homeStyle.footerNav} onClick={() => { }}>Home</span>
-                </Link>  | <Link href='/about'>
+                </Link>  | <Link href='/about' passHref={true}>
                     <span className={homeStyle.footerNav} onClick={() => { }}>About</span>
-                </Link>  |  <Link href='/writing'>
+                </Link>  |  <Link href='/writing' passHref={true}>
                     <span className={homeStyle.footerNav} onClick={() => { }}>Writing</span>
-                </Link>  |  <Link href='/project'>
+                </Link>  |  <Link href='/project' passHref={true}>
                     <span className={homeStyle.footerNav} onClick={() => { }}>Project</span>
                 </Link>
             </div>

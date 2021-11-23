@@ -8,7 +8,7 @@ import Link from 'next/link'
 export default function Header({ title='Hisam Fahri' }: any): ReactElement {
     return (
         <div className={homeStyle.header}>
-            <Link href='/'>
+            <Link href='/' passHref={true}>
                 <div className={homeStyle.logo}>
                     <Logo />
                 </div>
@@ -16,13 +16,13 @@ export default function Header({ title='Hisam Fahri' }: any): ReactElement {
             <div className={homeStyle.navigator}>
                 <p className={fontStyle.textH2} style={{ color: COLORS.textGrey, margin: 0 }}>{title}</p>
                 <p className={fontStyle.textBase} style={{ color: COLORS.mainGreen, marginTop: '4px', marginBottom: 0 }}>
-                    <Link href='/'>
+                    <Link href='/' passHref={true}>
                         <span className={homeStyle.headerNav} onClick={() => { }}>Home</span>
-                    </Link>  | <Link href='/about'>
+                    </Link>  | <Link href='/about' passHref={true}>
                         <span className={homeStyle.headerNav} onClick={() => { }}>About</span>
-                    </Link>  |  <Link href='/writing'>
+                    </Link>  |  <Link href='/writing' passHref={true}>
                         <span className={homeStyle.headerNav} onClick={() => { }}>Writing</span>
-                    </Link>  |  <Link href='/project'>
+                    </Link>  |  <Link href='/project' passHref={true}>
                         <span className={homeStyle.headerNav} onClick={() => { }}>Project</span>
                     </Link>
                 </p>
