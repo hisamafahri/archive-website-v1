@@ -18,7 +18,7 @@ const Project: NextPage = () => {
             </Head>
 
             <main className={globalStyle.main}>
-                <Header />
+                <Header title='Project' />
                 <div className={fontStyle.textBase} style={{ color: COLORS.textGrey }}>
                     <p>Most of my projects are open-source and can be found on my <Link href='https://github.com/hisamafahri'><span className={`${fontStyle.textBase} ${fontStyle.underlinedPink}`}>GitHub</span></Link> or its respective GitHub organization. But few of them are also close-source.</p>
                 </div>

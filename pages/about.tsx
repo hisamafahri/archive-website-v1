@@ -17,7 +17,7 @@ const About: NextPage = () => {
             </Head>
 
             <main className={globalStyle.main}>
-                <Header />
+                <Header title='About' />
                 <div className={fontStyle.textBase} style={{ color: COLORS.textGrey }}>
                     <p>Hi, I’m Hisam Fahri, a human, full-stack mobile and web developer, designer, and Formula 1 + Sherlock Holmes’ fan.</p>
                     <div style={{ width: '768px', height: '403.64px', position: 'relative', marginTop: '48px', marginBottom: '48px' }}>

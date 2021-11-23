@@ -17,7 +17,7 @@ const Home: NextPage = () => {
       </Head>
 
       <main className={globalStyle.main}>
-        <Header />
+        <Header title='Hisam Fahri' />
         <div className={fontStyle.textBase} style={{ color: COLORS.textGrey, marginBottom: '64px' }}>
           <p>Hi, I’m Hisam Fahri, a human, full-stack mobile and web developer, designer, and Formula 1 + Sherlock Holmes’ fan. Currently, working as a Software Engineer at Alpha AI.</p>
           <p>I am trying to write and share my thoughts more in form of a <Link href='/writing'><span className={`${fontStyle.textBase} ${fontStyle.underlinedPink}`}>blog post</span></Link>, but who knows at the time you are reading this, I might be create more posts or even rarely touch my blog.</p>
