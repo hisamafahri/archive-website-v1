@@ -20,8 +20,8 @@ const About: NextPage = () => {
                 <Header title='About' />
                 <div className={fontStyle.textBase} style={{ color: COLORS.textGrey }}>
                     <p>Hi, I’m Hisam Fahri, a human, full-stack mobile and web developer, designer, and Formula 1 + Sherlock Holmes’ fan.</p>
-                    <div style={{ width: '768px', height: '403.64px', position: 'relative', marginTop: '48px', marginBottom: '48px' }}>
-                        <Image alt="Vercel logo" src='/self.png' layout='fill' />
+                    <div style={{ marginTop: '48px', marginBottom: '48px' }}>
+                        <Image alt="Vercel logo" src='/self.png' width={768} height={403.64} />
                     </div>
                     <p>Born and raised in Indonesia, made me believe that this world is HUGE, but also have a HUGE amount of problems to solve. Everyday, I am wondering, “What should I do to bring meaningful impact to other people’s live, today?”</p>
                     <p>With those spirits in mind, every single day, no matter how small or big, I am trying to learn, understand, and help solving --not just mine, but also other people’s-- problems.</p>
