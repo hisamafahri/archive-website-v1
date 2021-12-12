@@ -24,6 +24,7 @@ const Project: NextPage = () => {
                 </div>
                 <div className={fontStyle.textBase} style={{ color: COLORS.textGrey, marginTop: "48px" }}>
                     <p><Link href="https://editr.hisamafahri.com/" passHref={true}><span className={fontStyle.underlinedPink}>Editr</span></Link>: yet another simple rich text editor, built using SlateJS</p>
+                    <p><Link href="https://www.github.com/hisamafahri/unilamaps" passHref={true}><span className={fontStyle.underlinedPink}>Unila Maps</span></Link>: a navigator app for University of Lampung area. Available for iOS and android.</p>
                     <p><Link href="https://www.npmjs.com/package/tnkb" passHref={true}><span className={fontStyle.underlinedPink}>TNKB</span></Link>: an NPM package to validate and decode Indonesian&apos;s vehicle&apos;s registration/plate number</p>
                     <p><Link href="https://www.github.com/hisamafahri/sandisam" passHref={true}><span className={fontStyle.underlinedPink}>SandiSam</span></Link>: personal password manager mobile app for iOS and android</p>
                     <p><Link href="https://www.github.com/hisamafahri/website" passHref={true}><span className={fontStyle.underlinedPink}>Personal Website</span></Link>: this website. The design was heavily inspired by <Link href="https://github.com/probberechts/hexo-theme-cactus" passHref={true}><span className={`${fontStyle.textBase} ${fontStyle.underlinedPink}`}>Cactus Dark Theme</span></Link>, and built using NextJS</p>
