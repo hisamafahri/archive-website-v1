@@ -8,14 +8,12 @@ First, clone this project, install the dependencies and run the development serv
 
 ```bash
 git clone https://github.com/hisamafahri/website
-git checkout hexo
 npm install
 npm run dev
 
 # or
 
 git clone https://github.com/hisamafahri/website
-git checkout hexo
 yarn install
 yarn dev
 ```
