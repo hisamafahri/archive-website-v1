@@ -1,3 +1,12 @@
+.blogHeader {
+    height: min-content;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    margin-bottom: 48px;
+}
+
 .header {
     height: min-content;
     display: flex;
