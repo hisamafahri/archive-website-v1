@@ -1,11 +1,11 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
-import { COLORS } from '../constants/color'
-import globalStyle from '../styles/Global.module.css'
-import fontStyle from '../styles/Fonts.module.css'
-import Header from '../components/Header'
+import { COLORS } from '../../constants/color'
+import globalStyle from '../../styles/Global.module.css'
+import fontStyle from '../../styles/Fonts.module.css'
+import Header from '../../components/Header'
 import Image from 'next/image'
-import Footer from '../components/Footer'
+import Footer from '../../components/Footer'
 
 const Writing: NextPage = () => {
     return (

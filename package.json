@@ -11,10 +11,13 @@
   "dependencies": {
     "commitizen": "^4.2.4",
     "fs": "^0.0.1-security",
+    "gray-matter": "^4.0.3",
     "image-size": "^1.0.0",
     "next": "12.0.4",
+    "raw-loader": "^4.0.2",
     "react": "17.0.2",
-    "react-dom": "17.0.2"
+    "react-dom": "17.0.2",
+    "react-markdown": "^7.1.2"
   },
   "devDependencies": {
     "@types/node": "16.11.7",
