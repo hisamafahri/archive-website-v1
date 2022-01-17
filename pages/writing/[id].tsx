@@ -27,7 +27,11 @@ const Writing: NextPage = ({ content, data }: any) => {
                     <p className={fontStyle.textBase} style={{ color: COLORS.textGrey, margin: 0 }}>{metadata.author.toUpperCase()} | {new Date(metadata.date).toDateString().substring(3, new Date(metadata.date).toDateString().length)}</p>
                 </div>
                 <div className={fontStyle.textBase} style={{ color: COLORS.textGrey }}>
-                    <ReactMarkdown children={content} remarkPlugins={[remarkGfm]} className={markdownStyle.markdown} />
+                    <ReactMarkdown
+                        children={content}
+                        remarkPlugins={[remarkGfm]}
+                        className={markdownStyle.markdown}
+                    />
                 </div>
                 <Footer />
             </main>
