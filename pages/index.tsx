@@ -28,6 +28,8 @@ const Home: NextPage = () => {
             <p className={fontStyle.textH2} style={{ color: COLORS.mainGreen, cursor: "pointer", width: "fit-content" }}>Projects</p>
           </Link>
           <div className={fontStyle.textBase} style={{ color: COLORS.textGrey, marginTop: "20px" }}>
+            <p><Link href="https://github.com/hisamafahri/commit" passHref={true}><span className={fontStyle.underlinedPink}>commit</span></Link>: a CLI tools to easily commit changes by following <Link href="https://www.conventionalcommits.org/en/v1.0.0/" passHref={true}><span className={fontStyle.underlinedPink}>the conventional commit</span></Link>. Built using go</p>
+            <p><Link href="https://github.com/hisamafahri/ting" passHref={true}><span className={fontStyle.underlinedPink}>ting</span></Link>: a CLI for useful tools for day-to-day developer. Built using go</p>
             <p><Link href="https://editr.hisamafahri.com/" passHref={true}><span className={fontStyle.underlinedPink}>Editr</span></Link>: yet another simple rich text editor, built using SlateJS</p>
             <p><Link href="https://www.github.com/hisamafahri/unilamaps" passHref={true}><span className={fontStyle.underlinedPink}>Unila Maps</span></Link>: a navigator app for University of Lampung area. Available for iOS and android.</p>
             <p><Link href="https://www.npmjs.com/package/tnkb" passHref={true}><span className={fontStyle.underlinedPink}>TNKB</span></Link>: an NPM package to validate and decode Indonesian&apos;s vehicle&apos;s registration/plate number</p>
@@ -38,7 +40,7 @@ const Home: NextPage = () => {
             <p><Link href="https://www.behance.net/gallery/106137831/kitalulus-Rebranding-Concept" passHref={true}><span className={fontStyle.underlinedPink}>KitaLulus Redesign Concept</span></Link>: logo redesign and rebranding concept for KitaLulus</p>
           </div>
         </div>
-      <Footer />
+        <Footer />
       </main>
     </div>
   )
