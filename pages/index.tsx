@@ -19,7 +19,7 @@ const Home: NextPage = () => {
       <main className={globalStyle.main}>
         <Header title="Hisam Fahri" />
         <div className={fontStyle.textBase} style={{ color: COLORS.textGrey, marginBottom: "64px" }}>
-          <p>Hi, I’m Hisam Fahri, a human, full-stack mobile and web developer, designer, and Formula 1 + Sherlock Holmes’ fan. Currently, working as a Software Engineer at Alpha AI.</p>
+          <p>Hi, I’m Hisam Fahri, a human, full-stack mobile and web developer, designer, and Formula 1 + Sherlock Holmes’ fan. Currently, working as a Software Engineer at PCCW Solutions.</p>
           <p>I am trying to write and share my thoughts more in form of a <Link href="/writing" passHref={true}><span className={`${fontStyle.textBase} ${fontStyle.underlinedPink}`}>blog post</span></Link>, but who knows at the time you are reading this, I might be create more posts or even rarely touch my blog.</p>
           <p>You can find me on <Link href="https://github.com/hisamafahri" passHref={true}><span className={`${fontStyle.textBase} ${fontStyle.underlinedPink}`}>GitHub</span></Link>, <Link href="https://twitter.com/hisamafahri" passHref={true}><span className={`${fontStyle.textBase} ${fontStyle.underlinedPink}`}>Twitter</span></Link>, <Link href="https://instagram.com/hisamafahri" passHref={true}><span className={`${fontStyle.textBase} ${fontStyle.underlinedPink}`}>Instagram</span></Link>, <Link href="https://linkedin.com/in/hisamafahri" passHref={true}><span className={`${fontStyle.textBase} ${fontStyle.underlinedPink}`}>LinkedIn</span></Link>, and <Link href="mailto:me@hisamafahri.com" passHref={true}><span className={`${fontStyle.textBase} ${fontStyle.underlinedPink}`}>Email (me@hisamafahri.com)</span></Link>.</p>
         </div>
