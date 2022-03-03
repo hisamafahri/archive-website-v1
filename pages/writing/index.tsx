@@ -6,6 +6,7 @@ import fontStyle from '../../styles/Fonts.module.css'
 import Header from '../../components/Header'
 import Image from 'next/image'
 import Footer from '../../components/Footer'
+import Link from 'next/link'
 
 const Writing: NextPage = () => {
     return (
@@ -18,8 +19,11 @@ const Writing: NextPage = () => {
 
             <main className={globalStyle.main}>
                 <Header title='Writing' />
-                <div className={fontStyle.textH2} style={{ color: COLORS.textGrey, textAlign: 'center' }}>
-                    <p>Coming soon...</p>
+                <div>
+                    <p className={fontStyle.textH2} style={{ color: COLORS.textGrey, cursor: "pointer", width: "fit-content" }}>2022</p>
+                    <div className={fontStyle.textBase} style={{ color: COLORS.textGrey, marginTop: "20px" }}>
+                        <p style={{color: COLORS.secondaryTextGrey}}>03 Mar 2021 <Link href="/writing/20220303" passHref={true}><span className={fontStyle.underlinedPink} style={{color: COLORS.textGrey}}>Let's get started</span></Link></p>
+                    </div>
                 </div>
                 <Footer />
             </main>
