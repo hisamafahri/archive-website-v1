@@ -19,7 +19,7 @@ const Home: NextPage = () => {
       <main className={globalStyle.main}>
         <Header title="Hisam Fahri" />
         <div className={fontStyle.textBase} style={{ color: COLORS.textGrey, marginBottom: "64px" }}>
-          <p>Hi, I’m Hisam Fahri, a human, full-stack mobile and web developer, designer, and Formula 1 + Sherlock Holmes’ fan. Currently, working as a Software Engineer at Alpha AI.</p>
+          <p>Hi, I’m Hisam Fahri, a human, full-stack mobile and web developer, designer, and Formula 1 + Sherlock Holmes’ fan. Currently, working as a Software Engineer at PCCW Solutions.</p>
           <p>I am trying to write and share my thoughts more in form of a <Link href="/writing" passHref={true}><span className={`${fontStyle.textBase} ${fontStyle.underlinedPink}`}>blog post</span></Link>, but who knows at the time you are reading this, I might be create more posts or even rarely touch my blog.</p>
           <p>You can find me on <Link href="https://github.com/hisamafahri" passHref={true}><span className={`${fontStyle.textBase} ${fontStyle.underlinedPink}`}>GitHub</span></Link>, <Link href="https://twitter.com/hisamafahri" passHref={true}><span className={`${fontStyle.textBase} ${fontStyle.underlinedPink}`}>Twitter</span></Link>, <Link href="https://instagram.com/hisamafahri" passHref={true}><span className={`${fontStyle.textBase} ${fontStyle.underlinedPink}`}>Instagram</span></Link>, <Link href="https://linkedin.com/in/hisamafahri" passHref={true}><span className={`${fontStyle.textBase} ${fontStyle.underlinedPink}`}>LinkedIn</span></Link>, and <Link href="mailto:me@hisamafahri.com" passHref={true}><span className={`${fontStyle.textBase} ${fontStyle.underlinedPink}`}>Email (me@hisamafahri.com)</span></Link>.</p>
         </div>
@@ -28,6 +28,9 @@ const Home: NextPage = () => {
             <p className={fontStyle.textH2} style={{ color: COLORS.mainGreen, cursor: "pointer", width: "fit-content" }}>Projects</p>
           </Link>
           <div className={fontStyle.textBase} style={{ color: COLORS.textGrey, marginTop: "20px" }}>
+            <p><Link href="https://github.com/hisamafahri/coco" passHref={true}><span className={fontStyle.underlinedPink}>coco</span></Link>: the all-in-one color conversion package for go</p>
+            <p><Link href="https://github.com/hisamafahri/cm" passHref={true}><span className={fontStyle.underlinedPink}>cm</span></Link>: a CLI tools to easily commit changes by following <Link href="https://www.conventionalcommits.org/en/v1.0.0/" passHref={true}><span className={fontStyle.underlinedPink}>the conventional commit</span></Link>. Built using go</p>
+            <p><Link href="https://github.com/hisamafahri/ting" passHref={true}><span className={fontStyle.underlinedPink}>ting</span></Link>: a CLI for useful tools for day-to-day developer. Built using go</p>
             <p><Link href="https://editr.hisamafahri.com/" passHref={true}><span className={fontStyle.underlinedPink}>Editr</span></Link>: yet another simple rich text editor, built using SlateJS</p>
             <p><Link href="https://www.github.com/hisamafahri/unilamaps" passHref={true}><span className={fontStyle.underlinedPink}>Unila Maps</span></Link>: a navigator app for University of Lampung area. Available for iOS and android.</p>
             <p><Link href="https://www.npmjs.com/package/tnkb" passHref={true}><span className={fontStyle.underlinedPink}>TNKB</span></Link>: an NPM package to validate and decode Indonesian&apos;s vehicle&apos;s registration/plate number</p>
@@ -38,7 +41,7 @@ const Home: NextPage = () => {
             <p><Link href="https://www.behance.net/gallery/106137831/kitalulus-Rebranding-Concept" passHref={true}><span className={fontStyle.underlinedPink}>KitaLulus Redesign Concept</span></Link>: logo redesign and rebranding concept for KitaLulus</p>
           </div>
         </div>
-      <Footer />
+        <Footer />
       </main>
     </div>
   )
