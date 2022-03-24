@@ -22,6 +22,7 @@ const Writing: NextPage = () => {
                 <div>
                     <p className={fontStyle.textH2} style={{ color: COLORS.textGrey, cursor: "pointer", width: "fit-content" }}>2022</p>
                     <div className={fontStyle.textBase} style={{ color: COLORS.textGrey, marginTop: "20px" }}>
+                        <p style={{ color: COLORS.secondaryTextGrey }}>18 Mar 2022 <Link href="/writing/20220318" passHref={true}><span className={fontStyle.underlinedPink} style={{ color: COLORS.textGrey }}>Shifting Gear</span></Link></p>
                         <p style={{ color: COLORS.secondaryTextGrey }}>11 Mar 2022 <Link href="/writing/20220311" passHref={true}><span className={fontStyle.underlinedPink} style={{ color: COLORS.textGrey }}>Atomicity in Database System, Simplified!</span></Link></p>
                         <p style={{ color: COLORS.secondaryTextGrey }}>03 Mar 2022 <Link href="/writing/20220303" passHref={true}><span className={fontStyle.underlinedPink} style={{ color: COLORS.textGrey }}>Let&apos;s get started</span></Link></p>
                     </div>
