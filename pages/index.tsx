@@ -28,6 +28,7 @@ const Home: NextPage = () => {
             <p className={fontStyle.textH2} style={{ color: COLORS.mainGreen, cursor: "pointer", width: "fit-content" }}>Projects</p>
           </Link>
           <div className={fontStyle.textBase} style={{ color: COLORS.textGrey, marginTop: "20px" }}>
+            <p><Link href="https://github.com/hisamafahri/nit" passHref={true}><span className={fontStyle.underlinedPink}>nit</span></Link>: a git CLI wrapperA CLI to replace your git command, so your git workflow can become more consistent, and fun. Built using Rust</p>
             <p><Link href="https://github.com/hisamafahri/coco" passHref={true}><span className={fontStyle.underlinedPink}>coco</span></Link>: the all-in-one color conversion package for go</p>
             <p><Link href="https://github.com/hisamafahri/cm" passHref={true}><span className={fontStyle.underlinedPink}>cm</span></Link>: a CLI tools to easily commit changes by following <Link href="https://www.conventionalcommits.org/en/v1.0.0/" passHref={true}><span className={fontStyle.underlinedPink}>the conventional commit</span></Link>. Built using go</p>
             <p><Link href="https://github.com/hisamafahri/wipe-for-you" passHref={true}><span className={fontStyle.underlinedPink}>Wipe For You</span></Link>: a chrome extensions to remove GitHub&apos;s &quot;For You&quot; section</p>
