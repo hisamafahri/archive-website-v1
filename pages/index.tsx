@@ -28,7 +28,7 @@ const Home: NextPage = () => {
             <p className={fontStyle.textH2} style={{ color: COLORS.mainGreen, cursor: "pointer", width: "fit-content" }}>Projects</p>
           </Link>
           <div className={fontStyle.textBase} style={{ color: COLORS.textGrey, marginTop: "20px" }}>
-            <p><Link href="https://github.com/hisamafahri/nit" passHref={true}><span className={fontStyle.underlinedPink}>nit</span></Link>: a git CLI wrapperA CLI to replace your git command, so your git workflow can become more consistent, and fun. Built using Rust</p>
+            <p><Link href="https://github.com/hisamafahri/nit" passHref={true}><span className={fontStyle.underlinedPink}>nit</span></Link>: a git CLI wrapper to replace your git command, so your git workflow can become more consistent, and fun. Built using Rust</p>
             <p><Link href="https://github.com/hisamafahri/coco" passHref={true}><span className={fontStyle.underlinedPink}>coco</span></Link>: the all-in-one color conversion package for go</p>
             <p><Link href="https://github.com/hisamafahri/wipe-for-you" passHref={true}><span className={fontStyle.underlinedPink}>Wipe For You</span></Link>: a chrome extensions to remove GitHub&apos;s &quot;For You&quot; section</p>
             <p><Link href="https://editr.hisamafahri.com/" passHref={true}><span className={fontStyle.underlinedPink}>Editr</span></Link>: yet another simple rich text editor, built using SlateJS</p>
