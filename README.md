@@ -1,37 +1,38 @@
-# Hisam's Personal Website
+# create-svelte
 
-This website was built using [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app). The overall design was heavily inspired by [Dark Theme](https://probberechts.github.io/hexo-theme-cactus/cactus-dark/public/) of [Hexo Theme Cactus](https://github.com/probberechts/hexo-theme-cactus)
+Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
 
-## Getting Started
+## Creating a project
 
-First, clone this project, install the dependencies and run the development server:
+If you're seeing this, you've probably already done this step. Congrats!
 
 ```bash
-git clone https://github.com/hisamafahri/website
-npm install
-npm run dev
+# create a new project in the current directory
+npm init svelte
 
-# or
-
-git clone https://github.com/hisamafahri/website
-yarn install
-yarn dev
+# create a new project in my-app
+npm init svelte my-app
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Developing
 
+Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
 
-## Learn More
+```bash
+npm run dev
 
-To learn more about Next.js, take a look at the following resources:
+# or start the server and open the app in a new browser tab
+npm run dev -- --open
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Building
 
-## License
+To create a production version of your app:
 
-MIT
+```bash
+npm run build
+```
 
-## Author
+You can preview the production build with `npm run preview`.
 
-[@hisamafahri](https://github.com/hisamafahri)
+> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
