@@ -20,9 +20,7 @@ export default function Header({ title='Hisam Fahri' }: any): ReactElement {
                         <span className={homeStyle.headerNav} onClick={() => { }}>Home</span>
                     </Link>  | <Link href='/about' passHref={true}>
                         <span className={homeStyle.headerNav} onClick={() => { }}>About</span>
-                    </Link>  |  <Link href='/writing' passHref={true}>
-                        <span className={homeStyle.headerNav} onClick={() => { }}>Writing</span>
-                    </Link>  |  <Link href='/project' passHref={true}>
+                    </Link>  |  <Link href='https://github.com/hisamafahri' passHref={true}>
                         <span className={homeStyle.headerNav} onClick={() => { }}>Project</span>
                     </Link>
                 </p>

@@ -14,9 +14,7 @@ export default function Footer({ }: any): ReactElement {
                     <span className={homeStyle.footerNav} onClick={() => { }}>Home</span>
                 </Link>  | <Link href='/about' passHref={true}>
                     <span className={homeStyle.footerNav} onClick={() => { }}>About</span>
-                </Link>  |  <Link href='/writing' passHref={true}>
-                    <span className={homeStyle.footerNav} onClick={() => { }}>Writing</span>
-                </Link>  |  <Link href='/project' passHref={true}>
+                </Link>  | <Link href='https://github.com/hisamafahri/hisamafahri' passHref={true}>
                     <span className={homeStyle.footerNav} onClick={() => { }}>Project</span>
                 </Link>
             </div>
